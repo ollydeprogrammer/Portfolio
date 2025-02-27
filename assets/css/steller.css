@@ -61,7 +61,22 @@ section {
   overflow: hidden; /* Prevents extra space */
 }
 
+@font-face {
+  font-family: 'OpenDyslexic';
+  src: url('assets/fonts/OpenDyslexic-Regular.woff2') format('woff2'),
+       url('assets/fonts/OpenDyslexic-Regular.woff') format('woff'),
+       url('assets/fonts/OpenDyslexic-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
+body {
+  font-family: 'OpenDyslexic', sans-serif;
+  font-size: 18px;  /* Larger text for readability */
+  line-height: 1.6;  /* More space between lines */
+  background-color: #F5F5F5; /* Softer background color */
+  color: #333;  /* High contrast but not pure black */
+}
 
 html {
   font-family: sans-serif;
