@@ -47,7 +47,16 @@
 *::after {
   box-sizing: border-box;
 }
+.icons {
+  display: flex;
+  justify-content: center; /* optional: centers the images horizontally */
+  gap: 20px; /* optional: space between icons */
+  align-items: center; /* vertically center icons if they have different heights */
+}
 
+.icons img {
+  max-height: 50px; /* optional: keep icons the same height */
+}
 
 section {
   scroll-snap-align: start;
